@@ -1,0 +1,7 @@
+polkadot_sdk::frame_benchmarking::define_benchmarks!(
+    [frame_benchmarking, BaselineBench::<Runtime>]
+    [frame_system, SystemBench::<Runtime>]
+    [frame_system_extensions, SystemExtensionsBench::<Runtime>]
+    [pallet_balances, Balances]
+    [polkadot_test, Customs]
+);
